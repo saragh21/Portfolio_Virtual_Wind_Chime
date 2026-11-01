@@ -1,7 +1,7 @@
 
 ## Try Interactive Prototype
 
-[Open the Virtual Wind Chime →](https://saragh21.github.io/virtual-wind-chime/)
+[Open the Virtual Wind Chime →](https://saragh21.github.io/Portfolio_Virtual_Wind_Chime/)
 
 # Virtual Wind Chime
 
