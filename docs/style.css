@@ -34,3 +34,31 @@
   line-height: 1.12;
 }
  
+
+
+/* Readable case-study text, immediately adjacent instrument inspector. */
+.process-heading p,.steps p,.research p,.inspector p{font-size:18px;line-height:1.7}
+details p{font-size:16px!important;line-height:1.75}
+.modal-display p,.citation p,.citation small,footer p,footer a,summary{font-size:16px;line-height:1.65}
+.citation small{display:block}.citation a,details a{text-decoration:underline;text-underline-offset:4px}
+.eyebrow,.section-label,.steps article>span,.citation>span{font-size:12px}
+.inspector{margin-top:26px;gap:6%;grid-template-columns:1fr 1.3fr}
+.inspector>div{min-width:0}.selectors{flex-wrap:wrap}
+.selectors button{width:48px;height:44px;font-size:15px}
+.plot-title{font-size:12px;gap:16px;flex-wrap:wrap;line-height:1.5}
+.mode span,.plot-axis{font-size:12px}.plot{margin-left:8px;margin-right:8px}
+.mode-table{width:100%;border-collapse:collapse;margin-top:22px;font-size:16px;font-variant-numeric:tabular-nums;text-align:left}
+.mode-table th,.mode-table td{padding:9px 12px;border-bottom:1px solid var(--line)}
+.mode-table thead{font-size:13px;color:var(--muted)}.mode-table th{font-weight:500}
+.material-status{display:flex;align-items:baseline;justify-content:center;gap:12px;padding:16px 24px;background:#edf0e8;flex-wrap:wrap;font-size:14px;color:#536348}
+.material-status strong{font-weight:600}.material-status span{color:#65735c}
+.console label{font-size:13px}.console label>span{font-size:11px;line-height:1.6}
+.tube.selected .body{outline:2px solid #405b38;outline-offset:5px}
+.tube.selected .number{font-weight:700;color:#263c29;background:#d3dfc4;border-radius:12px;padding:4px 0}
+.number{font-size:12px}.tube .body{transition:background .25s,box-shadow .15s,filter .15s}
+[data-material=wood] .body{background:repeating-linear-gradient(88deg,transparent 0 4px,#5c351726 5px,transparent 7px),linear-gradient(90deg,#765035,#af7d4d 20%,#d3ab76 48%,#996b40 82%,#69482e);border:1px solid #865c37;border-radius:4px 4px 7px 7px}
+[data-material=wood] .body:before{background:#633b24aa}
+[data-material=glass] .body{background:linear-gradient(90deg,#94bcb855,#ffffffc7 12%,#cce7df38 28%,#ffffff1c 56%,#f7fffcbb 82%,#89aaa861);border:1px solid #7faaa9;border-radius:6px 6px 10px 10px;box-shadow:inset 3px 0 6px #ffffff80,7px 6px 12px #52634815}
+[data-material=glass] .body:before{background:#c3e4dd66;border:1px solid #8dafaa}
+@media(max-width:600px){.inspector{grid-template-columns:1fr;gap:28px}.process-heading p,.steps p,.research p,.inspector p{font-size:17px}.modal-display p{font-size:16px}.material-status{display:block;text-align:center}.material-status span{display:block;margin-top:5px}.console label>span{font-size:10px}.mode-table th,.mode-table td{padding:9px 6px}.plot-title{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.tube .body{transition:none}}
